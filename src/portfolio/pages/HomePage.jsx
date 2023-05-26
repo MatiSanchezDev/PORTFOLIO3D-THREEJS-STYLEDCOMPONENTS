@@ -9,6 +9,7 @@ export const HomePage = () => {
         <Who />
         <Works />
         <Contact />
+        {/* Hola mondonogas */}
       </Container>
     </>
   );
