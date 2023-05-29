@@ -47,7 +47,7 @@ export const ListItem = styled.li`
     position: absolute;
     top: 0;
     left: 0;
-    color: #f6aeba;
+    color: pink;
     width: 0;
     overflow: hidden;
     white-space: nowrap;
