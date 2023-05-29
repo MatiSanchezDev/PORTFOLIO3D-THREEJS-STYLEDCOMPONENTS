@@ -1,4 +1,4 @@
-import { Contact, Hero, Who, Works } from "../components";
+import { Contact, Hero, Navbar, Who, Works } from "../components";
 import { Container } from "../styles/HomePageStyled";
 
 export const HomePage = () => {
@@ -9,7 +9,6 @@ export const HomePage = () => {
         <Who />
         <Works />
         <Contact />
-        {/* Hola mondonogas */}
       </Container>
     </>
   );
