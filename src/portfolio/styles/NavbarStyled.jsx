@@ -52,7 +52,7 @@ export const Icons = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 50px;
+  height: 90px;
 `;
 
 export const Button = styled.button`

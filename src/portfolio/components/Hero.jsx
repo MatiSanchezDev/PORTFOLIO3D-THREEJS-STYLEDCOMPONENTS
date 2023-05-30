@@ -21,15 +21,16 @@ export const Hero = () => {
       <Navbar />
       <Container>
         <Left>
-          <Title>Think. Make. Solve.</Title>
+          <Title>Pensar. Hacer. Resolver.</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>What we Do</Subtitle>
+            <Subtitle>Matias N. Sanchez</Subtitle>
           </WhatWeDo>
           <Desc>
-            we enjoy creating delighgful, human-centered digtal experiences.
+            Disfruto creando experiencias digitales centradas en la idea de cada
+            cliente
           </Desc>
-          <Button>Learn More</Button>
+          <Button>LinkedIn</Button>
         </Left>
         <Right>
           <Canvas>

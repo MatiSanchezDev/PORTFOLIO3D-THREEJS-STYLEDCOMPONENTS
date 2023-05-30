@@ -7,8 +7,8 @@ export const Container = styled.div`
   overflow-y: auto;
   color: white;
   background: url("./img/bg.jpeg");
-  scrollbar-width: none;
+  /* scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
-  }
+  } */
 `;

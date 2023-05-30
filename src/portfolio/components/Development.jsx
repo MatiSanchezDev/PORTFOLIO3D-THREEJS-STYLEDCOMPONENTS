@@ -1,6 +1,7 @@
 import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { Webpc } from "./Webpc";
+
+import Mac from "./Mac";
 import styled from "styled-components";
 
 const Desc = styled.div`
@@ -21,12 +22,12 @@ const Desc = styled.div`
   }
 `;
 
-export const WebDesing = () => {
+export const Development = () => {
   return (
     <>
       <Canvas>
         <Stage environment="city" intensity={0.6}>
-          <Webpc />
+          <Mac />
         </Stage>
         <OrbitControls enableZoom={false} autoRotate />
       </Canvas>

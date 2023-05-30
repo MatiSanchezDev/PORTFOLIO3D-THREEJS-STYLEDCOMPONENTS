@@ -31,8 +31,8 @@ export const ProductDesign = () => {
         <OrbitControls enableZoom={false} autoRotate />
       </Canvas>
       <Desc>
-        We design products with a strong focus on both world class design and
-        ensuring your product is a market success.
+        Elaboro productos con un fuerte enfoque tanto en el diseño de clase
+        mundial como en garantizar que su producto sea un éxito en el mercado.
       </Desc>
     </>
   );

@@ -44,17 +44,17 @@ export const Contact = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Us</Title>
-            <Input placeholder="Name" type="text" name="name" />
-            <Input placeholder="email" type="text" name="email" />
+            <Title>Contactame</Title>
+            <Input placeholder="Nombre" type="text" name="name" />
+            <Input placeholder="Email" type="text" name="email" />
             <TextArea
-              placeholder="Write your message"
+              placeholder="Escriba su mensaje"
               name="message"
               rows={10}
             />
-            <Button type="submit">Send</Button>
+            <Button type="submit">Enviar</Button>
             {success &&
-              "Your message has been sent. We'll get back to you soon :)"}
+              "Tu mensaje ha sido enviado. Me pondré en contacto con usted pronto. Gracias! :)"}
           </Form>
         </Left>
         <Right>

@@ -27,16 +27,15 @@ export const Who = () => {
           </Canvas>
         </Left>
         <Right>
-          <Title>Think outside the square space</Title>
+          <Title>Pensar afuera de la caja</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Quien soy</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of designers and developers with a passion for the
-            arts.
+            Un desarrollador apasionado por el diseño web y el arte 3D.
           </Desc>
-          <Button>See our Works</Button>
+          <Button>Mi Portfolio</Button>
         </Right>
       </Container>
     </Section>
