@@ -18,6 +18,10 @@ export const Left = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const Title = styled.h1`
@@ -30,6 +34,10 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 25px;
+
+  @media only screen and (max-width: 768px) {
+    width: 300px;
+  }
 `;
 
 export const Input = styled.input`
@@ -60,4 +68,8 @@ export const Button = styled.button`
 
 export const Right = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;

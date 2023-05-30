@@ -1,3 +1,5 @@
+import { Canvas } from "@react-three/fiber";
+import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 import {
   Button,
   Container,
@@ -30,7 +32,19 @@ export const Hero = () => {
           <Button>Learn More</Button>
         </Left>
         <Right>
-          {/* 3D modal */}
+          <Canvas>
+            <OrbitControls enableZoom={false} autoRotate />
+            <ambientLight intensity={1} />
+            <directionalLight position={[4, 2, 1]} />
+            <Sphere args={[1, 200, 300]} scale={2.5}>
+              <MeshDistortMaterial
+                color="#562b79"
+                attach="material"
+                distort={0.5}
+                speed={1.5}
+              />
+            </Sphere>
+          </Canvas>
           <Img src="./img/moon.png" />
         </Right>
       </Container>

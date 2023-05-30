@@ -17,12 +17,20 @@ export const Container = styled.div`
 
 export const Left = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Title = styled.h1`
   font-weight: bold;
   line-height: 90%;
   font-size: 74px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 50px;
+  }
 `;
 
 export const WhatWeDo = styled.div`
@@ -65,4 +73,9 @@ export const Right = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
 `;

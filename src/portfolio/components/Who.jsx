@@ -10,12 +10,22 @@ import {
   Title,
   WhatWeDo,
 } from "../styles/WhoStyled";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import { Cube } from "./Cube";
 
 export const Who = () => {
   return (
     <Section>
       <Container>
-        <Left>{/* 3D modal */}</Left>
+        <Left>
+          <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
+            <OrbitControls enableZoom={false} autoRotate />
+            <ambientLight intensity={1} />
+            <directionalLight position={[3, 2, 1]} />
+            <Cube />
+          </Canvas>
+        </Left>
         <Right>
           <Title>Think outside the square space</Title>
           <WhatWeDo>

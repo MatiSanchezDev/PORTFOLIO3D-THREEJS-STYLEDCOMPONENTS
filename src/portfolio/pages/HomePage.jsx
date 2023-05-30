@@ -1,4 +1,4 @@
-import { Contact, Hero, Navbar, Who, Works } from "../components";
+import { Contact, Hero, Navbar, Test, Who, Works } from "../components";
 import { Container } from "../styles/HomePageStyled";
 
 export const HomePage = () => {
